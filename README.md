@@ -1,9 +1,9 @@
 # medical_embeddings
-Given 2 files: 
-A list of related medical entities pairs 
+Given 2 files:  
+1. A list of related medical entities pairs 
 “MedicalConcepts.csv” contains a list of related medical entities pairs (Term1 and Term2 are related to each other) that has been curated by domain experts
 
-Sample notes collected from patient visits
+2. Sample notes collected from patient visits
 “ClinNotes.csv” contains notes (column=’notes’) from three departments (column=’category’), i.e. Cardiovascular / Pulmonary, Neurology, and Gastroenterology
 
 I use these information and come up with two approaches to generate vector representations of medical text:
